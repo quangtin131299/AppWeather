@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:weightSum="2">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtngay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ngày tháng"
+            android:textColor="#181717"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/txttrangthai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trang thái"
+            android:textSize="25sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3">
+
+            <ImageView
+                android:id="@+id/imgtrangthai"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/txtmax"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Max temp"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/txtmin"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Max temp"
+                android:textSize="18dp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
